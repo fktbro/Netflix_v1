@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 690px;
+    background: url(..//img/bg.jpg) center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+
+.main {
+    position: relative;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.main h1 {
+    font-size: 48px;
+    max-width: 700px;
+    max-height: 110px;
+    text-align: center;
+    position: relative;
+    z-index: 70;
+    padding-bottom: 25px;
+    font-weight: 650;
+}
+
+.textos {
+    position: relative;
+    justify-content: center;
+    display: grid;
+    color: white;
+}
+
+.main #textosub {
+    font-size: 26px;
+    max-width: 700px;
+    max-height: 33px;
+    text-align: center;
+    position: relative;
+    z-index: 70;
+    padding-bottom: 54px;
+}
+
+.main #textosub2 {
+    font-size: 20px;
+    max-width: 750px;
+    max-height: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 70;
+}
+
+.gradient {
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.form {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#email {
+    width: 440px;
+    height: 60px;
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 1px gray;
+    padding-left: 10px;
+}
+
+#enviar {
+    width: 183.63px;
+    height: 60px;
+    border-radius: 2px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 26px;
+    background-color: #e50914;
+    color: white;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+.header {
+    position: relative;
+    z-index: 2;
+}
+
+.header #idioma {
+    border: 1px solid #cfcfcf;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    width: 130px;
+    height: 38px;
+    border-radius: 2px;
+    position: relative;
+    right: 32px;
+    margin-top: 30px;
+}
+
+.header #entrar {
+    background-color: #e50914;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    width: 79px;
+    height: 36.63px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    margin-top: 30px;
+    margin-right: 35px;
+}
+
+.header #netflix-logo {
+    background: url(.//img/netflix_official_logo_icon_168085.svg);
+    width: 134px;
+    height: 36px;
+    position: relative;
+    display: inline-flex;
+    z-index: 70;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.header #nt-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.content-block {
+    display: flex;
+    justify-content: start;
+}
+
+.content-block-two {
+    display: flex;
+    justify-content: end;
+}
